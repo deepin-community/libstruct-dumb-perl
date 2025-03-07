@@ -4,13 +4,12 @@ Uploaders: gregor herrmann <gregoa@debian.org>
 Section: perl
 Testsuite: autopkgtest-pkg-perl
 Priority: optional
-Build-Depends: debhelper-compat (= 12),
+Build-Depends: debhelper-compat (= 13),
                libmodule-build-perl,
                perl
 Build-Depends-Indep: libdata-dump-perl <!nocheck>,
-                     libtest-fatal-perl <!nocheck>,
-                     libtest-pod-perl <!nocheck>
-Standards-Version: 4.5.0
+                     libtest2-suite-perl <!nocheck>
+Standards-Version: 4.6.2
 Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libstruct-dumb-perl
 Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libstruct-dumb-perl.git
 Homepage: https://metacpan.org/release/Struct-Dumb
@@ -20,6 +19,7 @@ Package: libstruct-dumb-perl
 Architecture: all
 Depends: ${misc:Depends},
          ${perl:Depends}
+Multi-Arch: foreign
 Description: module to create simple lightweight record-like structures
  Struct::Dumb creates record-like structure types, similar to the struct
  keyword in C, C++ or C#, or Record in Pascal. An invocation of this module

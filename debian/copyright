@@ -4,11 +4,11 @@ Upstream-Contact: Paul Evans <leonerd@leonerd.org.uk>
 Upstream-Name: Struct-Dumb
 
 Files: *
-Copyright: 2012-2020, Paul Evans <leonerd@leonerd.org.uk>
+Copyright: 2012-2023, Paul Evans <leonerd@leonerd.org.uk>
 License: Artistic or GPL-1+
 
 Files: debian/*
-Copyright: 2014-2020, gregor herrmann <gregoa@debian.org>
+Copyright: 2014-2023, gregor herrmann <gregoa@debian.org>
  2016, Lucas Kanashiro <kanashiro.duarte@gmail.com>
 License: Artistic or GPL-1+
 
